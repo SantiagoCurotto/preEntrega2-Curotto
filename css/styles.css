@@ -28,11 +28,13 @@ footer {
     padding: 15px;
 
 }
+
 footer ul {
-    
-  list-style-type: none; 
+
+    list-style-type: none;
 
 }
+
 /* INDEX */
 
 .presImg {
@@ -90,7 +92,7 @@ footer ul {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
     margin-bottom: 50px;
-    
+
 }
 
 .card img {
@@ -102,12 +104,13 @@ footer ul {
 }
 
 
-.card h2{
+.card h2 {
     margin: 10px;
     color: #b30000;
     font-size: 1.2rem;
 }
-.card p{
+
+.card p {
     font-size: 1rem;
     color: #333;
     line-height: 1.4;
@@ -115,20 +118,58 @@ footer ul {
 
 /* PAGINA IDOLOS */
 
-.idolos{
+.idolos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    width: 100%;
 }
 
-.idolo{
+.idolo {
     background: #fff;
     border-radius: 10px;
     text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-.idolo img{
-    width: 100%;
+
+.idolo img {
+    width: 400px;
     height: 600px;
     object-fit: cover;
-    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 10px;
 }
+.idolo p{
+    font-style: italic;
+    margin-top: 10;
+}
+
+.idolos h2 {
+    margin: 10px;
+    color: #b30000;
+    font-size: 1.2rem;
+
+}
+
+.introIdolos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.introIdolos h1{
+        color: #b30000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+
+}
+.introIdolos p{
+    font-weight: bold;
+}
+
+
+/* PAGINA HISTORIA */
+    
