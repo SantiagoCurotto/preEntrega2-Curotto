@@ -140,7 +140,8 @@ footer ul {
     border-radius: 6px;
     margin-bottom: 10px;
 }
-.idolo p{
+
+.idolo p {
     font-style: italic;
     margin-top: 10;
 }
@@ -160,91 +161,140 @@ footer ul {
 
 }
 
-.introIdolos h1{
-        color: #b30000;
+.introIdolos h1 {
+    color: #b30000;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-weight: bold;
 
 }
-.introIdolos p{
+
+.introIdolos p {
     font-weight: bold;
 }
 
 
 /* PAGINA HISTORIA */
-    .historia{
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        padding: 20px;
-        align-items: center;
-    }
-    .historia article{
-        background: #fff;
-        border-radius: 8px;
-        padding: 15px;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-        width: 700px;
-        text-align: center;
-    }
-    .historia article img{
-        width: 450px;
-        height: 300px;
-        object-fit: cover;
-        margin-top: 10px;
-        border-radius: 6px;
-    }
-    .historia h2{
-     color: #b30000;
+.historia {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+}
+
+.historia article {
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    text-align: center;
+}
+
+.historia article img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.historia h2 {
+    color: #b30000;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     font-weight: bold;
-    }
-    .historia p{
+}
+
+.historia p {
     font-style: italic;
     margin-top: 10;
+}
+
+/* MOBILE INDEX  */
+@media screen and (max-width: 768px) {
+    .pres {
+        flex-direction: column;
+        text-align: center;
     }
 
-    /* MOBILE INDEX  */
-    @media screen and (max-width: 768px){
-        .pres{
-            flex-direction: column;
-            text-align: center;
-        }
-        .presImg{
-            margin-top: 20px;
-        }
-        .presText h1{
-            font-size: 2rem;
-        }
-        .presText p{
-            font-size: 1rem;
-        }
-        .destacados {
-            grid-template-columns: 1fr;
-        }
-        .card img{
-            height: 450px;
-            object-fit: cover;
-            
-        }
-        footer{
-            font-size: 1rem;
-            padding: 10px;
-        }
-        .idolos{
-            grid-template-columns: 1fr;
-            
-        }
-        .idolo img{
-            height: 500px;
-            object-fit: cover;   
-        }
-        .idolo h2{
-            font-size: 1.5rem;
-        }
-        .idolo p{
-            font-size: 1rem;
-            line-height: 1.4;
-        }
+    .presImg {
+        margin-top: 20px;
+    }
+
+    .presText h1 {
+        font-size: 2rem;
+    }
+
+    .presText p {
+        font-size: 1rem;
+    }
+
+    .destacados {
+        grid-template-columns: 1fr;
+    }
+
+    .card img {
+        height: 450px;
+        object-fit: cover;
 
     }
+
+    footer {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .idolos {
+        grid-template-columns: 1fr;
+
+    }
+
+    .idolo img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .idolo h2 {
+        font-size: 1.5rem;
+    }
+
+    .idolo p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+}
+
+/* PAGINA INTERNACIONAL */
+.copasInternacionales {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.copa {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.copa img {
+    width: 750px;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.copa h2 {
+  color: #b30000;
+  margin-bottom: 10px;
+}
+
+.copa p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
