@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto;
 }
 
 .gridContainer {
@@ -297,4 +299,42 @@ footer ul {
 .copa p {
   font-size: 1rem;
   margin: 5px 0;
+}
+
+/* COPA NACIONAL */
+
+.copasNacionales {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 30px;
+  padding: 20px;
+}
+
+.copaNacional {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.copaNacional img {
+  width: 700px;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.copaNacional h2 {
+  color: #b30000;
+  margin-bottom: 10px;
+}
+
+.copaNacional p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+.copaNacional{
+    font-style: italic;
 }
