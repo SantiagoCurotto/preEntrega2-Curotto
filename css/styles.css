@@ -420,3 +420,62 @@ h1 {
     object-fit: cover;
   }
 }
+
+/* MOVIL HISTORIA INTERNACIONAL NACIONAL */
+@media (max-width: 768px) {
+
+  /* HISTORIA */
+  .historia {
+    padding: 12px;
+    gap: 20px;
+    align-items: stretch;   /* que ocupen ancho completo */
+  }
+  .historia article {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+  }
+  .historia article img {
+    width: 100%;
+    height: 240px;          /* altura razonable en móvil */
+    object-fit: cover;
+    border-radius: 6px;
+  }
+
+  /* INTERNACIONALES */
+  .copasInternacionales {
+    padding: 12px;
+    gap: 18px;
+  }
+  .copa {
+    padding: 14px;
+    text-align: center;
+  }
+  .copa img {
+    width: 100%;
+    height: 220px;          /* portada apaisada */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .copa h2 { font-size: 1.2rem; }
+  .copa p  { font-size: 0.95rem; }
+
+  /* NACIONALES */
+  .copasNacionales {
+    grid-template-columns: 1fr;  /* una columna en móvil */
+    gap: 18px;
+    padding: 12px;
+  }
+  .copaNacional {
+    padding: 14px;
+    text-align: center;
+  }
+  .copaNacional img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .copaNacional h2 { font-size: 1.2rem; }
+  .copaNacional p  { font-size: 0.95rem; }
+}
